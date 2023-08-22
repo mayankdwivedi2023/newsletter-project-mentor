@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Subscribe to Our Newsletter</title>
+</head>
+
+<body>
+  <!-- Newsletter Desktop Design -->
+  <div class="fade-in" id="main-content">
+    <main class="flex flex-center">
+      <section class="flex flex-center newsletter-content primary-text-color container">
+        <!-- Newsletter Content -->
+        <article class="about-newsletter">
+          <h1>Stay Updated!</h1>
+          <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="features">
+            <li class="flex flex-start">
+              <img src="/images/checkmark.svg" alt="checkmark icon">
+              <p class="sub-description">Product discovery and building what matters</p>
+            </li>
+            <li class="flex flex-start">
+              <img src="/images/checkmark.svg" alt="checkmark icon">
+              <p class="sub-description">Measuring to ensure updates are a success</p>
+            </li>
+            <li class="flex flex-start">
+              <img src="/images/checkmark.svg" alt="checkmark icon">
+              <p class="sub-description">And much more!</p>
+            </li>
+          </ul>
+          <form id="newsletter-form" novalidate>
+            <label for="email">
+              Email Address
+              <span id="error-message" class="error-message">Valid email required!</span>
+              <input type="email" id="email" placeholder="email@company.com" class="email-input-box dp-block">
+            </label>
+            <button type="submit" class="btn primary-bg-color">Subscribe to Monthly Newsletter</button>
+          </form>
+        </article>
+        <!-- Newsletter Image -->
+        <article class="banner-image">
+          <img src="/images/signup-banner-desktop.svg" alt="newsletter banner image for desktop" class="desktop-banner">
+          <img src="/images/signup-banner-mobile.svg" alt="newsletter banner image for mobile"
+            class="dp-none mobile-banner">
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="/js/actions.js"></script>
+</body>
+
+</html>

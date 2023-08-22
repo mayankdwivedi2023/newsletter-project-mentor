@@ -1,0 +1,39 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 24px 16px 24px 40px;
+}
+.container-xs {
+  max-width: 580px;
+  padding: 60px 40px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-dir-col {
+  flex-direction: column;
+}
+.flex-dir-col-rev {
+  flex-direction: column-reverse;
+}
+.align-start {
+  align-items: flex-start;
+}
+.dp-none {
+  display: none;
+}
+.dp-block {
+  display: block;
+}

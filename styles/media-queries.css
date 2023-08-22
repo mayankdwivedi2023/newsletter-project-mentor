@@ -1,0 +1,26 @@
+/* Media Queries */
+@media (max-width: 640px) {
+  .mobile-banner {
+    display: block;
+    min-width: 100vw;
+  }
+  .desktop-banner {
+    display: none;
+  }
+  .newsletter-content {
+    flex-direction: column-reverse;
+    padding: 0;
+    min-height: 100vh;
+    justify-content: flex-end;
+    border-radius: 0 !important;
+  }
+  .about-newsletter {
+    padding: 0px 16px;
+  }
+  .success-message {
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+  }
+}
