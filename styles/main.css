@@ -1,8 +1,8 @@
-@import "/styles/success-page/success-message.css";
-@import url("/styles/fonts.css");
-@import "/styles/layout.css";
-@import "/styles/media-queries.css";
-@import "/styles/button.css";
+@import "styles/success-page/success-message.css";
+@import url("styles/fonts.css");
+@import "styles/layout.css";
+@import "styles/media-queries.css";
+@import "styles/button.css";
 
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
