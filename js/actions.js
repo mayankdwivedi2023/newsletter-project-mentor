@@ -21,7 +21,7 @@ document
       // Redirect after the transition completes
       setTimeout(function () {
         window.location.assign(
-          "/html/success-message.html?email=" + encodeURIComponent(email)
+          "success-message.html?email=" + encodeURIComponent(email)
         );
       }, 500);
     } else {
